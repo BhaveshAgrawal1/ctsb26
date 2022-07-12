@@ -1,0 +1,26 @@
+GET http://localhost:8080/greet
+###
+GET http://localhost:8080/greet/maRK
+###
+GET http://localhost:8080/greet/a
+###
+###
+###
+###
+###
+###
+GET http://localhost:8080/div/5/2
+###
+###
+###
+GET http://localhost:8080/div/5/0
+###
+GET http://localhost:8080/mul/5/0
+###
+GET http://localhost:8080/store/5/0
+###
+###
+###
+POST http://localhost:8080/store/5/0
+
+

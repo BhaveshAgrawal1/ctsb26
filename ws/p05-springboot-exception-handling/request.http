@@ -1,0 +1,13 @@
+GET http://localhost:8080/books 
+###
+GET http://localhost:8080/books/29
+###
+POST http://localhost:8080/books 
+content-type: application/json
+
+{
+    "title": "Ironman",
+    "author": "John",
+    "price": 25.0
+}
+###
