@@ -1,0 +1,27 @@
+GET http://localhost:8080/api/demo/greet 
+###
+GET http://localhost:8080/api/demo/greet/mike
+###
+GET http://localhost:8080/api/demo/admin
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJtb3ZpZTIiOiJtb3N0ZXIgaHVudCIsInN1YiI6ImFkbWluIiwibW92aWUiOiJhbmRheiBhcG5hIGFwbmEiLCJwbGFjZSI6InN3aXR6ZXJsYW5kIiwiZXhwIjoxNjU3NzEyOTY3LCJpYXQiOjE2NTc2OTQ5Njd9.qCC7kUDCTll2yo40oAsYfNFD4AglsxVSOA5q-rbYDJng0sm6zUrpg5PiLV_74E01K0QTU4oya0-jOBS1-PyhEQ
+###
+GET http://localhost:8080/api/demo/user
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJtb3ZpZTIiOiJtb3N0ZXIgaHVudCIsInN1YiI6InVzZXIiLCJtb3ZpZSI6ImFuZGF6IGFwbmEgYXBuYSIsInBsYWNlIjoic3dpdHplcmxhbmQiLCJleHAiOjE2NTc3MTI2ODUsImlhdCI6MTY1NzY5NDY4NX0.65NDJ3ChTVFzeRSYThmUIHBaTrS9MjG3ExykcUxcHxE-v0UPDxspHlh2pMFOZwkFO2QHLonHHipqPrLAZUWgGw
+###
+POST http://localhost:8080/authenticate
+content-type: application/json
+
+{
+    "username": "user",
+    "password": "user@123"
+}
+###
+POST http://localhost:8080/authenticate
+content-type: application/json
+
+{
+    "username": "admin",
+    "password": "admin@123"
+}
+
+

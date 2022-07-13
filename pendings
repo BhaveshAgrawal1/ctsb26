@@ -1,15 +1,13 @@
- 
 
-HTTP Caching 
+
+Spring Boot Dependency Management 
+Implementation: Microservices Concept 
+
+Writing a REST Client
 
 Spring Test 
 
-Spring Security to configure Basic Authentication and JWT 
-
 Working with swagger 
-Spring Boot Dependency Management 
-Implementation: Microservices Concept 
-Writing a REST Client
 
 Handle Circular dependencies 
 Dependency Injection 
