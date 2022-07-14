@@ -1,0 +1,16 @@
+GET http://localhost:8080/movies
+
+###
+
+GET http://localhost:8080/movies/2
+###
+POST http://localhost:8080/movies
+content-type: application/json
+
+{
+  "title": "Shaktiman",
+  "director": "Mukesh",
+  "rating": 4.7
+}
+
+###
