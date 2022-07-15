@@ -1,23 +1,16 @@
-
-
-Spring Boot Dependency Management 
-Implementation: Microservices Concept 
-
-Writing a REST Client
-
-Spring Test 
-
-Working with swagger 
-
-Handle Circular dependencies 
-Dependency Injection 
-Environment based setting
-12 Factor Principles 
-
-
+Spring Test => 30/60 mins
 
 
 Kafka
 ---------
 
-Brokers and Topics | Topic Replication | Consumers | Kafka CLI | Event Streaming | Publish and Subscribe Model | Notification | Kafka Streams Topology
+Brokers and Topics 
+Topic Replication 
+Consumers 
+Kafka CLI 
+Event Streaming 
+Publish and Subscribe Model 
+Notification 
+Kafka Streams Topology
+
+

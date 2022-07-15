@@ -1,0 +1,20 @@
+GET http://localhost:8080/books
+###
+GET http://localhost:8080/books/1
+###
+POST http://localhost:8080/books
+content-type: application/json
+
+{
+  "title": "SpiderMonkeyFlight",
+  "author": "Tom",
+  "price": 29.9
+}
+
+###
+GET http://localhost:8080/v3/api-docs
+###
+GET http://localhost:8080/swagger-ui/index.html
+
+
+
