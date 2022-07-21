@@ -1,14 +1,8 @@
-
-
-CLI Commands 
-Databinding 
 Directives 
 Pipes 
 Forms 
-Dependency Injection 
-Routing
-Use Lazy Loading 
-Nested Module
+
+
 
 Breakpoints 
 Examine variables 
@@ -17,7 +11,9 @@ Browsers' Debugging Tools
 Pause Code with Breakpoints 
 Debug Background Service
 
+
 State Management
 Exception Handling and Logging
+
 
 Popular angular libraries like Angular Material, Bootstrap,rxjs, ngrx/store
