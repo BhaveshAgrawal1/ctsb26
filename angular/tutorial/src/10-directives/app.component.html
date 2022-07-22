@@ -1,0 +1,27 @@
+<h2>Directives Demo</h2>
+
+<button (click)="toggle()">Flag: {{flag}}</button>
+
+
+<h3>Structural Demo</h3>
+
+<p *ngIf="flag==false">This is error message</p>
+
+<ul>
+    <li *ngFor="let book of books;let i = index">
+        {{i+1}}. {{book.title}} book is written by {{book.author}} and its price is ${{book.price}}.
+    </li>
+</ul>
+
+<h3>Attribute/Behavioural Demo</h3>
+
+<ul>
+    <li class="error">This is a dummy text 1</li>
+    <li class="success">This is a dummy text 2</li>
+    <li [ngClass]="flag?'success':'error'">This is a dummy text 3</li>
+    <li [ngClass]="myClass">This is a dummy text 4</li>
+
+    <li [ngStyle]="myStyle">This is a dummy text 5</li>
+   
+</ul>
+

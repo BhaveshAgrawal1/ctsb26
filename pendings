@@ -1,8 +1,3 @@
-Directives 
-Pipes 
-Forms 
-
-
 
 Breakpoints 
 Examine variables 
@@ -12,8 +7,8 @@ Pause Code with Breakpoints
 Debug Background Service
 
 
-State Management
+State Management, ngrx/store, rxjs
 Exception Handling and Logging
 
 
-Popular angular libraries like Angular Material, Bootstrap,rxjs, ngrx/store
+Popular angular libraries like Angular Material, Bootstrap
