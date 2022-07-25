@@ -1,0 +1,6 @@
+<p>Name: {{userService.user.name}}</p>
+<p>Name: {{userService.user | json}}</p>
+
+<hr/>
+
+<input (keyup)="changeName(currentInEle.value)" #currentInEle />

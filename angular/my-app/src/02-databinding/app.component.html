@@ -1,0 +1,22 @@
+<h2>Angular Demo</h2>
+<div>
+    <h2>This is binding demo</h2>
+
+Subject: {{subject}}
+
+<button 
+    (click)="updateSubject(localVar.value)">
+    Update
+</button>
+<br/>
+<input 
+    type="text" 
+    #localVar 
+    placeholder="Enter new subject" 
+    [value]="subject" 
+/>
+
+
+
+</div>
+

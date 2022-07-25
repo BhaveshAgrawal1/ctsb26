@@ -1,0 +1,15 @@
+<form [formGroup]="myForm" (submit)="getLogin()">
+
+    <div formArrayName="subjects">
+        <h3>Subjects</h3>
+        <div *ngFor="let subject of subjects.controls; let i = index">
+            <input type="text" formControlName="{{i}}">
+        </div>
+    </div>
+
+    <button type="button" (click)="addSubject()">Add Subject</button>
+    <button type="button" (click)="removeSubject()">Remove Subject</button>
+        <button>Submit</button>
+</form>
+
+<br />
